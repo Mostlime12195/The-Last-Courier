@@ -47,6 +47,10 @@ animations = [{
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_rxibo")
+ACCELERATION = null
+TILT_ANGLE = null
+LATERAL_FRICTION = null
+FORWARD_FRICTION = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_rxibo")
