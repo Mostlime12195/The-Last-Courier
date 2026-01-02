@@ -9,6 +9,29 @@
 position = Vector2(438, 280)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(187, -32)
+position = Vector2(138, -110.00001)
+rotation = 0.7853982
 scale = Vector2(2.5703125, 2.5390625)
+skew = 0.7853982
+texture = ExtResource("2_hdcac")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(-549.9999, -125.99991)
+rotation = 0.7853982
+scale = Vector2(2.5703125, 2.5390625)
+skew = 0.7853982
+texture = ExtResource("2_hdcac")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(1255.0001, 372)
+rotation = 0.7853982
+scale = Vector2(2.5703125, 2.5390625)
+skew = 0.7853982
+texture = ExtResource("2_hdcac")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(823.00006, -112.00001)
+rotation = 0.7853982
+scale = Vector2(2.5703125, 2.5390625)
+skew = 0.7853982
 texture = ExtResource("2_hdcac")

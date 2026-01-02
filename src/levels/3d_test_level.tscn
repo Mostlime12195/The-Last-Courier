@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6dq4hs6drebd"]
+
+[ext_resource type="PackedScene" uid="uid://yx6f04gwr21o" path="res://src/player/player_3d.tscn" id="1_r3rjb"]
+
+[node name="3d_test_level" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.257416, 0, -6.905166)
+use_collision = true
+size = Vector3(25.645447, 1, 24.100348)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9923935, 1.6107788, -9.6610565)
+use_collision = true
+size = Vector3(4.3762054, 4.2215576, 4.9268203)
+
+[node name="Player" parent="." instance=ExtResource("1_r3rjb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9162121, 1.14, -3.1117725)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.7071068, 0.5, -0.5, 0, 0.7071068, 0.70710677, 0.7071068, -0.5, 0.5, -4.8393574, 3.999999, -0.5451541)
+projection = 1
+current = true
+size = 4.0
