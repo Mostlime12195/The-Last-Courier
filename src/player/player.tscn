@@ -1,10 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://e8sdwh1s5ar4"]
+[gd_scene load_steps=5 format=3 uid="uid://e8sdwh1s5ar4"]
 
 [ext_resource type="Script" uid="uid://ctuxayju4jqfg" path="res://src/player/player.gd" id="1_rxibo"]
 [ext_resource type="Texture2D" uid="uid://u2u8pvg2ix58" path="res://images/scooter_NE.png" id="2_rxibo"]
-[ext_resource type="Texture2D" uid="uid://bevneikhkpn0a" path="res://images/scooter_NW.png" id="3_mf2ua"]
-[ext_resource type="Texture2D" uid="uid://c4ujwrs6wc07t" path="res://images/scooter_SE.png" id="4_5f2sf"]
-[ext_resource type="Texture2D" uid="uid://6ux8jpneu56y" path="res://images/scooter_SW.png" id="5_jiejy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rxibo"]
 size = Vector2(120, 120)
@@ -17,30 +14,6 @@ animations = [{
 }],
 "loop": true,
 "name": &"north_east",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("3_mf2ua")
-}],
-"loop": true,
-"name": &"north_west",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("4_5f2sf")
-}],
-"loop": true,
-"name": &"south_east",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("5_jiejy")
-}],
-"loop": true,
-"name": &"south_west",
 "speed": 5.0
 }]
 
